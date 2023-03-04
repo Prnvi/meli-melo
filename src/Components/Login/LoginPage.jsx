@@ -11,6 +11,7 @@ import React, {useState} from 'react';
 function LoginPage () {
   const {register,handleSubmit} = useForm();
   const location =useLocation()
+  // eslint-disable-next-line
   const [user, setUser] = useState('');
   const auth = useAuth();
   const redirectPath = location.state?.path || '/'
