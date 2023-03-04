@@ -4,6 +4,7 @@ import '../Home/Style.css'
 import axios from "axios"
 
 const NavBar = () => {
+  // eslint-disable-next-line
   const req = async () => {
     try {
       await axios.get("/user/logout", {
